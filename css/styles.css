@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   font-family: var(--ff-sans);
   color: var(--clr-text);
+  line-height: 1.2;
 }
 
 h1, h2, h3, h4, p {
@@ -23,41 +24,19 @@ h1, h2, h3, h4, p {
 }
 
 h2, h3 {
-  line-height: 0.8;
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 1rem;
+}
+
 p {
   margin-bottom: 0.85em;
-}
-
-.logo, .blurb, .call-to-action, .btn-group {
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  margin-top: 5em;
-  font-size: 40px;
-}
-
-.blurb {
-  margin: 1em 25em 1em 25em;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.call-to-action {
-  padding: .5em 1em;
-  margin: 2em 36em 10em 36em;
-  cursor: pointer;
-  color: #000000;
-  background-color: #fdb92b;
-  border-radius: 0.5em;
-  box-shadow: 0 4px 0 0px rgba(0,0,0,0.2);
 }
 
 .btn-group {
@@ -83,38 +62,37 @@ p {
   margin-left: 5em;
 }
 
-/* NAV BAR
 .navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: var(--clr-primary);
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
 }
 
 .navLink {
     float: left;
-  }
-  
-  .navLink a {
+}
+
+.navLink a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  .navLink a:hover:not(.active) {
-  background-color: #363534;
-  }
-  
-  .active {
-    background-color: #fff;
-  }
+}
+
+.navLink a:hover:not(.active) {
+background-color: #363534;
+}
+
+.active {
+    background-color: var(--clr-primary);
+}
 
 .navName {
     float: left;
@@ -124,6 +102,10 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.section-title {
+  margin: 2em 0 2em 0;
 }
 
 /* HEADER */

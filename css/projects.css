@@ -1,0 +1,32 @@
+@import "styles.css";
+
+body {
+    background-color: var(--clr-secondary);
+    color: #000;
+}
+
+.project-showcase {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+}
+
+.project {
+    background-color: var(--clr-primary);
+    padding: 10em 2em 10em 2em;
+    margin: 5em;
+    border-radius: 2em;
+    box-shadow: 0 3px 3px 5px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+}
+
+.project-description {
+}
+

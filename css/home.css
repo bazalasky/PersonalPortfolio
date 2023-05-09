@@ -3,3 +3,34 @@
 body {
     background-color: var(--clr-primary);
 }
+
+.home-page {
+text-align: center;
+}
+
+.logo, .blurb, .btn-group {
+display: flex;
+justify-content: center;
+}
+
+.logo {
+margin-top: 5em;
+font-size: 40px;
+}
+
+.blurb {
+margin: 1em 25em 1em 25em;
+text-align: center;
+line-height: 1.4;
+}
+
+.call-to-action {
+padding: .5em 1em;
+margin: 2em 36em 10em 36em;
+cursor: pointer;
+color: #000000;
+background-color: #fdb92b;
+border-radius: 0.5em;
+box-shadow: 0 4px 0 0px rgba(0,0,0,0.2);
+display: inline-block;
+}
