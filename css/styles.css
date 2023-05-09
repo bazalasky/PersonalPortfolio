@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+}
+
+:root {
+  --clr-text: #ffffff;
+  --clr-primary: #8366f8;
+  --clr-secondary: #f0f0f0;
+
+  --ff-title: ;
+  --ff-sans: 'Raleway', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-sans);
+  color: var(--clr-text);
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+h2, h3 {
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  margin-bottom: 0.85em;
+}
+
+.logo, .blurb, .call-to-action, .btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 5em;
+  font-size: 40px;
+}
+
+.blurb {
+  margin: 1em 25em 1em 25em;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.call-to-action {
+  padding: .5em 1em;
+  margin: 2em 36em 10em 36em;
+  cursor: pointer;
+  color: #000000;
+  background-color: #fdb92b;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 0 0px rgba(0,0,0,0.2);
+}
+
+.btn-group {
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: .75em 2.5em;
+  background-color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: var(--clr-text);
+  border-radius: 0.5em;
+  box-shadow: 0 4px 0 0px rgba(0,0,0,0.2);
+}
+
+.btn + .btn {
+  margin-left: 5em;
+}
+
+/* NAV BAR
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navLink {
+    float: left;
+  }
+  
+  .navLink a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navLink a:hover:not(.active) {
+  background-color: #363534;
+  }
+  
+  .active {
+    background-color: #fff;
+  }
+
+.navName {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* HEADER */
+/* .contact-button {
+    background-color: rgb(83, 142, 252);
+    color: #000;
+    border-radius: 20px;
+    height: 40px;
+    width: 50%;
+}
+
+.header {
+    background-color: inherit;
+}
+
+.header-cta {
+    margin: 350px 0 0 75px;
+    text-align: center;
+}
+
+.header-img {
+    max-height: 600px; 
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.title-square {
+    background-color: #f4c51b;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    font-size: 40px !important;
+}
+
+.home-page {
+} */
+/* BODY */
+
+/* Projects */
+
+/* My Journey */
+/* .mj-title-container {
+  display: block;
+  margin-top: 400px;
+  text-align: center;
+  background-color: green;
+} */
+
