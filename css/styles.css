@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 p {
@@ -106,6 +106,7 @@ background-color: #363534;
 
 .section-title {
   margin: 2em 0 2em 0;
+  text-align: center;
 }
 
 /* HEADER */

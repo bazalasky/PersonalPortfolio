@@ -1,0 +1,51 @@
+@import "styles.css";
+
+body {
+    background-color: var(--clr-secondary);
+    color: #000;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.about-blurb {
+    width: 30em;
+    margin: 1em 2em 1em 0;
+    line-height: 1.4;
+}
+
+#brady {
+    border-radius: 50%;
+}
+
+.my-journey {
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.journey-block {
+    margin-top: 5em;
+    justify-content: flex-start;
+}
+
+#journey-img {
+    border-radius: 1em;
+    box-shadow: 0 3px 3px 2px rgba(0,0,0,0.2);
+}
+
+.journey-block-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}
+
+.journey-block-title {
+    margin-left: 1em;
+    position: relative;
+    bottom: -2em;
+}
