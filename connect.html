@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/connect.css">
+    <title>Connect</title>
+</head>
+<body>
+    <div id="nav-bar"></div>
+    <header>
+        <h2 class="section-title">CONTACT</h2>
+    </header>
+    <form class="contact" action="https://formsubmit.co/bazalasky@gmail.com" method="POST">
+        <div class="name">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="email">
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="message">
+            <input type="text" name="message" placeholder="Your Message Here">
+        </div>
+        <button type="submit">Send</button>
+   </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(() => {
+            $('#nav-bar').load('/nav.html');
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@import "styles.css";
+
+body {
+    background-color: var(--clr-secondary);
+    color: #000;
+}
+
+.contact {
+    margin-top: 10em;
+    height: 30em;
+    width: 30em;
+    background-color: var(--clr-primary);
+    padding: 5em;
+}

@@ -19,6 +19,10 @@ html {
   line-height: 1.2;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2, h3, h4, p {
   margin: 0;
 }
@@ -63,19 +67,18 @@ p {
 }
 
 .navigation {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: var(--clr-primary);
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--clr-primary);
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .navLink {
-    float: left;
+    float: right;
 }
 
 .navLink a {
@@ -102,6 +105,12 @@ background-color: #363534;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .section-title {
